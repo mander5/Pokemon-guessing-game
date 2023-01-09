@@ -1,0 +1,75 @@
+.Guesser {
+  display: grid;
+}
+
+.guessForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sprite {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  display: flex;
+  border: 3px solid #1ecd97;
+  background-color: transparent;
+  color: #1ecd97;
+  font-size: 1.2em;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  cursor: pointer;
+  width: 100px;
+  height: 30px;
+  line-height: 25px;
+  border-radius: 30px;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.retry {
+  border: 3px solid #cd6d1e;
+  color: #cd6d1e;
+}
+
+form {
+  display: grid;
+  input {
+    width: 100%;
+    background: none;
+    color: rgb(70, 69, 69);
+    font-size: 1.2em;
+    font-weight: 400;
+    border: none;
+    border-bottom: 1px solid grey;
+    margin-bottom: 10px;
+  }
+}
+
+* :focus {
+  outline-color: transparent;
+  outline-style: none;
+}
+
+.userGuesses {
+  display: flex;
+  font-family: "Pokemon Text Normal";
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+img {
+  width: 200px;
+}
+
+.sprite {
+  height: 200px;
+}
