@@ -89,7 +89,7 @@ const Guesser = () => {
           setRightGuess("");
         }}
       >
-        Try Again
+        Retry
       </button>
       <div className="userGuesses">
         <div className="wrongGuesses">{wrongGuess}</div>
