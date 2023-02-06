@@ -24,7 +24,7 @@ const Guesser = () => {
       setRefetch(!refetch);
       setWrongGuess("");
       setRightGuess(
-        "Congratulation it was " +
+        "Congratulations it was " +
           userGuess.name[0].toUpperCase() +
           userGuess.name.substring(1) +
           "!"
